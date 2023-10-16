@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27C7E580-5A5B-673E-7D6F-728F664C8095" name="Clients">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 14:39:23 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="client_id" id="B0DAF19F-1DA2-6730-DFDB-59946E26F51B">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 14:48:50 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="9BD3C15C-BC48-E4AD-23AA-6634D2406134">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 14:48:50 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="middle_name" id="52FE3A4A-B9B7-E0D0-E9D8-C44C398219AF">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 14:48:50 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="3781E258-2478-394B-B855-A967882F355A">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 14:48:50 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="31B23099-7716-5C0C-B4EC-B2FF35FF50AB">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 14:48:50 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="D03D09D6-0A91-43F0-C488-D2370F7FC0DF">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 14:48:50 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F7A6D61-4659-BEB6-5F7C-B45FA8FD0981" name="Clients_PK">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 14:48:50 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0DAF19F-1DA2-6730-DFDB-59946E26F51B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

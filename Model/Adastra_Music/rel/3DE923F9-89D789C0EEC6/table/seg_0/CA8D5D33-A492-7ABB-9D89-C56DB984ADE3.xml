@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA8D5D33-A492-7ABB-9D89-C56DB984ADE3" name="Employees">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 14:49:04 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="empl_id" id="6EC88A41-C44E-4F24-678E-BD8A816028B6">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 14:57:01 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="84455D95-8417-121E-B7C0-052A265152A5">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 14:57:01 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="middle_name" id="8DA76BF4-2EAA-85A8-4C84-979B9EC9CE26">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 14:57:01 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="5337D864-4D78-6FE1-9FFD-7CD3694D123D">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 14:57:01 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="6B864913-1BF2-5263-FD83-EF3C3B76F38D">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 14:57:01 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pos_id" id="24F6155C-AB55-75E3-2935-C7AA22C15125">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 14:57:01 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAFA8202-6D5E-8AC6-8004-976EB907AF2F" referredColumn="7B30365C-B517-1CF1-33E3-181CBED969DF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38CDCCED-ED1A-FA4A-E21E-B15502D444C2" name="Employees_PK">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 14:57:01 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EC88A41-C44E-4F24-678E-BD8A816028B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A2E2C89-7A3C-DC55-83F7-3DDD73263DFD" name="Employees_Possitions_FK">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 16:33:57 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24F6155C-AB55-75E3-2935-C7AA22C15125"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

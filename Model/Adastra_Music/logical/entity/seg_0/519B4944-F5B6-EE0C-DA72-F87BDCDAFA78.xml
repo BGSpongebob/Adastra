@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="519B4944-F5B6-EE0C-DA72-F87BDCDAFA78" name="Genres">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 17:54:56 UTC</createdTime>
+<generatorID>AEEC6395-B503-F338-8D4C-EEFE186CC119</generatorID>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<engineerTo>
+<item key="3DE923F9-45CA-213B-A141-89D789C0EEC6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="genre id" id="A807DC18-27DC-F590-542A-72ABB44CB656">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 17:54:56 UTC</createdTime>
+<generatorID>0DB622DC-522B-8DA2-E204-B35ADB176DCC</generatorID>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<engineerTo>
+<item key="3DE923F9-45CA-213B-A141-89D789C0EEC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genre" id="0DD13F63-E301-6D20-DD9C-AAF2C259E376">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 17:54:56 UTC</createdTime>
+<generatorID>7C692CE9-C0CE-8D60-90A6-02A7D4373C71</generatorID>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<engineerTo>
+<item key="3DE923F9-45CA-213B-A141-89D789C0EEC6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7BB08A3B-D370-4847-B678-52099379080A" name="Genres PK">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 17:54:56 UTC</createdTime>
+<generatorID>EF8FBED7-92B1-1F0A-52E1-A14AD0F6CE75</generatorID>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<engineerTo>
+<item key="3DE923F9-45CA-213B-A141-89D789C0EEC6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A807DC18-27DC-F590-542A-72ABB44CB656</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

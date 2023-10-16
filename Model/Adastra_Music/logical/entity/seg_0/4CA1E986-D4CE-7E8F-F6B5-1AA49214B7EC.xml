@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4CA1E986-D4CE-7E8F-F6B5-1AA49214B7EC" name="Sales Products">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 17:54:56 UTC</createdTime>
+<generatorID>51073F6E-2BA7-67EE-F598-B46CA397A58A</generatorID>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<engineerTo>
+<item key="3DE923F9-45CA-213B-A141-89D789C0EEC6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sale id" id="BFEC13D7-013B-1816-968D-765308BB47CE">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 17:54:56 UTC</createdTime>
+<generatorID>77DDD23D-61A7-7D64-F408-5BE2AC47DB4E</generatorID>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<engineerTo>
+<item key="3DE923F9-45CA-213B-A141-89D789C0EEC6" value="true"/>
+</engineerTo>
+<referedAttribute>C9EF6C43-E55A-68E9-710D-F0B7A6BB67E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prod id" id="A002CCFC-3E32-0A7C-B97F-FD7323049A2C">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 17:54:56 UTC</createdTime>
+<generatorID>34EB384D-72CC-5A57-E309-ADFCD735DE12</generatorID>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<engineerTo>
+<item key="3DE923F9-45CA-213B-A141-89D789C0EEC6" value="true"/>
+</engineerTo>
+<referedAttribute>131487A1-D346-6B49-FDCE-7111B097DC91</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sale quantity" id="27A70F00-AE40-6D7B-FB62-67B31450383A">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 17:54:56 UTC</createdTime>
+<generatorID>C0A24E51-897A-774E-ED52-8A491022DBED</generatorID>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<engineerTo>
+<item key="3DE923F9-45CA-213B-A141-89D789C0EEC6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

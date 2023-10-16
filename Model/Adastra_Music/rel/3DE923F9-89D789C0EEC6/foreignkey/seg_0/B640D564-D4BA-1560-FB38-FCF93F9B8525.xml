@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B640D564-D4BA-1560-FB38-FCF93F9B8525" containerWithKeyObject="51073F6E-2BA7-67EE-F598-B46CA397A58A" localFKIndex="C6DC25C3-6F4E-9D45-135D-112F9A6B8724" name="Sales_Products_Sales_FK">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 16:33:31 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<referredTableLongName>Sales</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AD87E16E-1DCB-D5EC-CB6F-652092204A54</referredTableID>
+<keyObject>0A71E21A-6462-D6B5-3E39-C23BF485DB6D</keyObject>
+<referredKeyID>0A71E21A-6462-D6B5-3E39-C23BF485DB6D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sale_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Employees_Possitions_FK" directorySegmentName="seg_0" id="533A7C47-3739-7FB6-5D77-32FCF433442C">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 17:54:56 UTC</createdTime>
+<generatorID>BAFA8202-6D5E-8AC6-8004-976EB907AF2F</generatorID>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<engineerTo>
+<item key="3DE923F9-45CA-213B-A141-89D789C0EEC6" value="true"/>
+</engineerTo>
+<sourcePk>9DADADFF-2F44-CA62-5C2E-35957CDD8B3E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>05F54A2D-138F-EB9B-23A8-29A5CF946555</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>160F2FF5-81BF-C66E-8FF4-3819BA395421</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

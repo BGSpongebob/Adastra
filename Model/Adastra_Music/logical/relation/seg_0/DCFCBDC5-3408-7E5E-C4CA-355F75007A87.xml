@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Products_Genres_FK" directorySegmentName="seg_0" id="DCFCBDC5-3408-7E5E-C4CA-355F75007A87">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 17:54:56 UTC</createdTime>
+<generatorID>4338FD42-5BB9-A0D2-17AE-BF47C29398A6</generatorID>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<engineerTo>
+<item key="3DE923F9-45CA-213B-A141-89D789C0EEC6" value="true"/>
+</engineerTo>
+<sourcePk>7BB08A3B-D370-4847-B678-52099379080A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>519B4944-F5B6-EE0C-DA72-F87BDCDAFA78</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>65E1402E-44D8-B13C-7643-876CB56D03C7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

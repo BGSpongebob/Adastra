@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D4984CC3-67CD-264B-01C2-916DC74F79BC" containerWithKeyObject="AD87E16E-1DCB-D5EC-CB6F-652092204A54" localFKIndex="0313B9B3-9666-2D14-61FF-79AE1E255C29" name="Sales_Clients_FK">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 16:33:40 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<referredTableLongName>Clients</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>27C7E580-5A5B-673E-7D6F-728F664C8095</referredTableID>
+<keyObject>4F7A6D61-4659-BEB6-5F7C-B45FA8FD0981</keyObject>
+<referredKeyID>4F7A6D61-4659-BEB6-5F7C-B45FA8FD0981</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>client_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

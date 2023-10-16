@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEEC6395-B503-F338-8D4C-EEFE186CC119" name="Genres">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 15:08:05 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="genre_id" id="0DB622DC-522B-8DA2-E204-B35ADB176DCC">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 15:08:36 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genre_name" id="7C692CE9-C0CE-8D60-90A6-02A7D4373C71">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 15:08:36 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF8FBED7-92B1-1F0A-52E1-A14AD0F6CE75" name="Genres_PK">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 15:08:36 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DB622DC-522B-8DA2-E204-B35ADB176DCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

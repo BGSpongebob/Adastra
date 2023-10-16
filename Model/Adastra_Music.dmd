@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Adastra_Music" id="02E3A33C-F17D-4341-2E51-99C194DC9D43" version="3.5">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 14:38:22 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>02E3A33C-F17D-4341-2E51-99C194DC9D43</designId>
+</OSDM_Design>
