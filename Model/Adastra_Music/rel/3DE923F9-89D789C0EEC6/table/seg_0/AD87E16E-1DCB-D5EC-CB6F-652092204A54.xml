@@ -44,17 +44,15 @@
 <colAssociation fkAssociation="71C9A2FF-80EC-899D-05E6-21824B18546C" referredColumn="6EC88A41-C44E-4F24-678E-BD8A816028B6"/>
 </associations>
 </Column>
-<Column name="total_price" id="B111AB8C-263F-6333-2953-20526894B76D">
+<Column name="sale_date" id="B111AB8C-263F-6333-2953-20526894B76D">
 <createdBy>Boris Lukov</createdBy>
 <createdTime>2023-10-16 15:12:58 UTC</createdTime>
 <ownerDesignName>Adastra_Music</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
