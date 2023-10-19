@@ -8,6 +8,27 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sale_product_id" id="889AD563-E2D8-90D7-7C29-B91138B76FAE">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2023-10-19 14:33:43 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sale_quantity" id="C0A24E51-897A-774E-ED52-8A491022DBED">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 15:48:49 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="sale_id" id="83375B8D-343F-C89E-51EB-9BBE89421B2E">
 <createdBy>Boris Lukov</createdBy>
 <createdTime>2023-10-16 15:15:33 UTC</createdTime>
@@ -34,19 +55,19 @@
 <colAssociation fkAssociation="EEA649D9-74E2-F80A-DEDB-E4BBAA28D760" referredColumn="F091C890-CD68-6551-B27D-7B967E99E3E7"/>
 </associations>
 </Column>
-<Column name="sale_quantity" id="C0A24E51-897A-774E-ED52-8A491022DBED">
-<createdBy>Boris Lukov</createdBy>
-<createdTime>2023-10-16 15:48:49 UTC</createdTime>
-<ownerDesignName>Adastra_Music</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8857DE2E-4FB3-30E6-30BF-F70947892676" name="Sales_Products_PK">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2023-10-19 14:33:43 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="889AD563-E2D8-90D7-7C29-B91138B76FAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="1BC0BEC8-9FBE-CA78-B24E-CCA2685ED137" name="Sales_Products_Products_FK">
 <createdBy>Boris Lukov</createdBy>
 <createdTime>2023-10-16 16:33:21 UTC</createdTime>

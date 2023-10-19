@@ -66,9 +66,9 @@
 <ownDataTypeParameters>16,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="pos_id" id="24F6155C-AB55-75E3-2935-C7AA22C15125">
-<createdBy>Boris Lukov</createdBy>
-<createdTime>2023-10-16 14:57:01 UTC</createdTime>
+<Column name="pos_id" id="2EE59575-3051-4659-A785-DE1B4C9B0629">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2023-10-19 14:42:26 UTC</createdTime>
 <ownerDesignName>Adastra_Music</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -76,7 +76,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="BAFA8202-6D5E-8AC6-8004-976EB907AF2F" referredColumn="7B30365C-B517-1CF1-33E3-181CBED969DF"/>
+<colAssociation fkAssociation="AC6071E5-E5FB-913E-D878-818613684848" referredColumn="4636C72A-13EB-E631-B18A-ED628EF32502"/>
 </associations>
 </Column>
 </columns>
@@ -92,14 +92,14 @@
 <colUsage columnID="6EC88A41-C44E-4F24-678E-BD8A816028B6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7A2E2C89-7A3C-DC55-83F7-3DDD73263DFD" name="Employees_Possitions_FK">
-<createdBy>Boris Lukov</createdBy>
-<createdTime>2023-10-16 16:33:57 UTC</createdTime>
+<ind_PK_UK id="F0324339-5A9D-E728-7664-044B7F42AC90" name="Employees_Positions_FK">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2023-10-19 14:42:33 UTC</createdTime>
 <ownerDesignName>Adastra_Music</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="24F6155C-AB55-75E3-2935-C7AA22C15125"/>
+<colUsage columnID="2EE59575-3051-4659-A785-DE1B4C9B0629"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

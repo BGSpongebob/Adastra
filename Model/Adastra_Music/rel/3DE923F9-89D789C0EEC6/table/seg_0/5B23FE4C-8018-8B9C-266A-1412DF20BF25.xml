@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B23FE4C-8018-8B9C-266A-1412DF20BF25" name="Artists">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2023-10-19 14:24:13 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="artist_id" id="1F03467A-0D5D-7570-FE39-11A6FA17FF00">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2023-10-19 14:31:57 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="artist_name" id="0C0A509F-9C5D-A0D5-0AB3-C63694E83B41">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2023-10-19 14:32:19 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72187938-2B4C-BCC6-DD6C-DE97EC8E5D85" name="Artists_PK">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2023-10-19 14:31:57 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F03467A-0D5D-7570-FE39-11A6FA17FF00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

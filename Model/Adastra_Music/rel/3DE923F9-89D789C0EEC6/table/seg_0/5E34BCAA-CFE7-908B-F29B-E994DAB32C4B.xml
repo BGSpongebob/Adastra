@@ -18,68 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="type_id" id="7FFD054B-533F-2B89-5B0B-4D01493D0ADA">
-<createdBy>Boris Lukov</createdBy>
-<createdTime>2023-10-16 15:07:58 UTC</createdTime>
-<ownerDesignName>Adastra_Music</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="BDEF81F5-99D8-F4A2-2196-F56745EF1A4D" referredColumn="FCE4E7FF-2DED-8361-1F7D-194A6BAA921B"/>
-</associations>
-</Column>
-<Column name="year_of_release" id="E97A7FBE-7CFC-28FE-BAB6-3D151E0AB57A">
-<createdBy>Boris Lukov</createdBy>
-<createdTime>2023-10-16 15:07:58 UTC</createdTime>
-<ownerDesignName>Adastra_Music</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="prod_name" id="32C52906-38D0-6BAA-8E2F-E1A009853E78">
-<createdBy>Boris Lukov</createdBy>
-<createdTime>2023-10-16 15:07:58 UTC</createdTime>
-<ownerDesignName>Adastra_Music</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>64</dataTypeSize>
-<ownDataTypeParameters>64,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="artist" id="2BE6CD75-6458-28AE-0F2F-BC8CE3573CF4">
-<createdBy>Boris Lukov</createdBy>
-<createdTime>2023-10-16 15:07:58 UTC</createdTime>
-<ownerDesignName>Adastra_Music</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>64</dataTypeSize>
-<ownDataTypeParameters>64,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="genre_id" id="DB79C3E6-BCC3-7A03-50EB-5326861A627F">
-<createdBy>Boris Lukov</createdBy>
-<createdTime>2023-10-16 15:07:58 UTC</createdTime>
-<ownerDesignName>Adastra_Music</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="4338FD42-5BB9-A0D2-17AE-BF47C29398A6" referredColumn="0DB622DC-522B-8DA2-E204-B35ADB176DCC"/>
-</associations>
-</Column>
-<Column name="label" id="5312BD9D-6814-7010-8924-0AEF06A45816">
 <createdBy>Boris Lukov</createdBy>
 <createdTime>2023-10-16 15:07:58 UTC</createdTime>
 <ownerDesignName>Adastra_Music</ownerDesignName>
@@ -115,6 +54,69 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="year_of_release" id="E97A7FBE-7CFC-28FE-BAB6-3D151E0AB57A">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 15:07:58 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genre_id" id="DB79C3E6-BCC3-7A03-50EB-5326861A627F">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 15:07:58 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4338FD42-5BB9-A0D2-17AE-BF47C29398A6" referredColumn="0DB622DC-522B-8DA2-E204-B35ADB176DCC"/>
+</associations>
+</Column>
+<Column name="artist_id" id="2BE6CD75-6458-28AE-0F2F-BC8CE3573CF4">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 15:07:58 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7558AC5F-F751-F333-538F-84312828FB01" referredColumn="1F03467A-0D5D-7570-FE39-11A6FA17FF00"/>
+</associations>
+</Column>
+<Column name="label_id" id="5312BD9D-6814-7010-8924-0AEF06A45816">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 15:07:58 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="719CC0F7-8622-DF53-7853-2673FB6FC253" referredColumn="0CA75043-1809-C1C1-37B2-699787149EF1"/>
+</associations>
+</Column>
+<Column name="type_id" id="7FFD054B-533F-2B89-5B0B-4D01493D0ADA">
+<createdBy>Boris Lukov</createdBy>
+<createdTime>2023-10-16 15:07:58 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDEF81F5-99D8-F4A2-2196-F56745EF1A4D" referredColumn="FCE4E7FF-2DED-8361-1F7D-194A6BAA921B"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="A3578C5C-423D-F5F9-4CD3-1D5B1258F854" name="Products_PK">
@@ -146,6 +148,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7FFD054B-533F-2B89-5B0B-4D01493D0ADA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="473B0D54-8A41-B869-A333-2D0471F8EAEE" name="Products_Artists_FK">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2023-10-19 14:37:30 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BE6CD75-6458-28AE-0F2F-BC8CE3573CF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C26E045-6FBE-E8C7-5791-FA0A68D27863" name="Products_Labels_FK">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2023-10-19 14:38:04 UTC</createdTime>
+<ownerDesignName>Adastra_Music</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5312BD9D-6814-7010-8924-0AEF06A45816"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
