@@ -79,13 +79,13 @@ CREATE TABLE sales (
 ALTER TABLE sales ADD CONSTRAINT sales_pk PRIMARY KEY ( sale_id );
 
 CREATE TABLE sales_products (
-    sale_product_id   INTEGER NOT NULL,
-    sale_quantity     INTEGER,
-    sale_id           INTEGER NOT NULL,
-    prod_id           INTEGER NOT NULL
+    sale_prod_id   INTEGER NOT NULL,
+    sale_quantity  INTEGER,
+    sale_id        INTEGER NOT NULL,
+    prod_id        INTEGER NOT NULL
 );
 
-ALTER TABLE sales_products ADD CONSTRAINT sales_products_pk PRIMARY KEY ( sale_product_id );
+ALTER TABLE sales_products ADD CONSTRAINT sales_products_pk PRIMARY KEY ( sale_prod_id );
 
 CREATE TABLE types (
     type_id     INTEGER NOT NULL,
