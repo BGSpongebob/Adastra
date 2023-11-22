@@ -105,7 +105,7 @@ create or replace PROCEDURE FIND_SALE_PRODUCTS (
    saleID SALES.SALE_ID%TYPE
 ) IS
 BEGIN
-   DBMS_OUTPUT.PUT_LINE('Products in sale ID: ' || saleID || ', ordered by date:' || CHR(10));
+   DBMS_OUTPUT.PUT_LINE('Products in sale ID: ' || saleID || CHR(10));
    DBMS_OUTPUT.PUT_LINE(
       RPAD('SaleID', 6) || ' |' ||
       RPAD('Product', 32) || ' |' ||
@@ -121,7 +121,6 @@ BEGIN
       JOIN PRODUCTS p ON sp.PROD_ID = p.PROD_ID
       JOIN TYPES t ON p.TYPE_ID = t.TYPE_ID
       WHERE s.SALE_ID LIKE saleID
-      ORDER BY s.SALE_DATE DESC
    ) 
    LOOP    
       DBMS_OUTPUT.PUT_LINE(
