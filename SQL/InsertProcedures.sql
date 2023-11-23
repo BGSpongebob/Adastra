@@ -117,15 +117,28 @@ end SAL_INS;
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE "ADMIN"."SAL_PRO_INS" 
+CREATE OR REPLACE EDITIONABLE PROCEDURE "SAL_PRO_INS" 
 (sale_quantity sales_products.sale_quantity%type,
  sale_id sales_products.sale_id%type,
- prod_id sales_products.prod_id%type)
+ product_id sales_products.prod_id%type)
 as
+   available_quantity products.av_quantity%type;
 begin
- insert into 
-sales_products(sale_quantity,sale_id,prod_id)
- values(sale_quantity,sale_id,prod_id);
+   SELECT av_quantity
+   INTO available_quantity
+   FROM products
+   WHERE prod_id = product_id;
+   -- Проверяваме, дали има достатъчно продукт.
+   if available_quantity >= sale_quantity then
+      UPDATE products
+      SET av_quantity = av_quantity - sale_quantity
+      WHERE prod_id = product_id;
+      
+      INSERT INTO sales_products(sale_quantity, sale_id, prod_id)
+      VALUES (sale_quantity, sale_id, product_id);
+   else
+      DBMS_OUTPUT.PUT_LINE('Insufficient available quantity. Sale not processed.');
+   end if;
 end SAL_PRO_INS;
 
 /
