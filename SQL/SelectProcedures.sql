@@ -100,7 +100,7 @@ BEGIN
    END LOOP;
 END FIND_CLIENT_PRODUCTS;
 
--- Справка, извждаща всички закупени продукти в дадена продажба, подредени по дата.
+-- Справка, извeждаща всички закупени продукти в дадена продажба, подредени по дата.
 create or replace PROCEDURE FIND_SALE_PRODUCTS (
    saleID SALES.SALE_ID%TYPE
 ) IS
