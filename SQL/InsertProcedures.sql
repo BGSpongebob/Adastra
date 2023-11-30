@@ -4,7 +4,7 @@
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE "ADMIN"."ART_INS" -- ARTist_INSert
+  CREATE OR REPLACE PROCEDURE "ART_INS" -- ARTist_INSert
 (artist_name artists.artist_name%type)
 as
 begin
@@ -19,7 +19,7 @@ end ART_INS;
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE "ADMIN"."CLI_INS" 
+  CREATE OR REPLACE PROCEDURE "CLI_INS" 
 (first_name clients.first_name%type,
  middle_name clients.middle_name%type,
  last_name clients.last_name%type,
@@ -38,7 +38,7 @@ end CLI_INS;
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE "ADMIN"."EMP_INS" 
+  CREATE OR REPLACE PROCEDURE "EMP_INS" 
 (first_name employees.first_name%type,
  middle_name employees.middle_name%type,
  last_name employees.last_name%type,
@@ -60,7 +60,7 @@ end EMP_INS;
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE "ADMIN"."LAB_INS" 
+  CREATE OR REPLACE PROCEDURE "LAB_INS" 
 (label_name labels.label_name%type)
 as
 begin
@@ -75,7 +75,7 @@ end LAB_INS;
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE "ADMIN"."PRO_INS" 
+  CREATE OR REPLACE PROCEDURE "PRO_INS" 
 (prod_name products.prod_name%type,
  price products.price%type,
  av_quantity products.av_quantity%type,
@@ -97,7 +97,7 @@ end PRO_INS;
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE "ADMIN"."SAL_INS" 
+  CREATE OR REPLACE PROCEDURE "SAL_INS" 
 (sale_date sales.sale_date%type,
  client_id sales.client_id%type,
  empl_id sales.empl_id%type)
@@ -117,7 +117,7 @@ end SAL_INS;
 --------------------------------------------------------
 set define off;
 
-CREATE OR REPLACE EDITIONABLE PROCEDURE "SAL_PRO_INS" 
+CREATE OR REPLACE PROCEDURE "SAL_PRO_INS" 
 (sale_quantity sales_products.sale_quantity%type,
  sale_id sales_products.sale_id%type,
  product_id sales_products.prod_id%type)

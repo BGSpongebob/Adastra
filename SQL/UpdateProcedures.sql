@@ -3,7 +3,7 @@
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE "ADMIN"."ART_UPD" -- ARTist_UPDate
+  CREATE OR REPLACE PROCEDURE "ART_UPD" -- ARTist_UPDate
 (ID integer,
  n_artist_name artists.artist_name%type)
 as
@@ -19,7 +19,7 @@ end ART_UPD;
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE "ADMIN"."CLI_UPD" 
+  CREATE OR REPLACE PROCEDURE "CLI_UPD" 
 (ID integer,
  n_first_name clients.first_name%type,
  n_middle_name clients.middle_name%type,
@@ -43,7 +43,7 @@ end CLI_UPD;
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE "ADMIN"."EMP_UPD" 
+  CREATE OR REPLACE PROCEDURE "EMP_UPD" 
 (ID integer,
  n_first_name employees.first_name%type,
  n_middle_name employees.middle_name%type,
@@ -67,7 +67,7 @@ end EMP_UPD;
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE "ADMIN"."LAB_UPD" 
+  CREATE OR REPLACE PROCEDURE "LAB_UPD" 
 (ID integer,
  n_label_name labels.label_name%type)
 as
@@ -83,7 +83,7 @@ end LAB_UPD;
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE "ADMIN"."PRO_UPD" 
+  CREATE OR REPLACE PROCEDURE "PRO_UPD" 
 (ID integer,
  n_prod_name products.prod_name%type,
  n_price products.price%type,
@@ -113,7 +113,7 @@ end PRO_UPD;
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE "ADMIN"."SAL_PRO_UPD" 
+  CREATE OR REPLACE PROCEDURE "SAL_PRO_UPD" 
 (ID integer,
  n_sale_quantity sales_products.sale_quantity%type,
  n_sale_id sales_products.sale_id%type,
@@ -133,7 +133,7 @@ end SAL_PRO_UPD;
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE "ADMIN"."SAL_UPD" 
+  CREATE OR REPLACE PROCEDURE "SAL_UPD" 
 (ID integer,
  n_sale_date sales.sale_date%type,
  n_client_id sales.client_id%type,
