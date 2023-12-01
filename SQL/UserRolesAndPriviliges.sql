@@ -1,15 +1,15 @@
 ---user creation---
-creat user CLIENT identified by client;
-creat user EMPLOYEE identified by employee;
-creat user ADMIN identified by admin;
+create user CLIENT identified by client;
+create user EMPLOYEE identified by employee;
+create user ADMIN identified by admin;
 
 ---role creation---
-creat ROLE clients;
+create ROLE clients;
 create ROLE employees;
 create ROLE admins; 
 
 
----granting priviliges to roles---
+---granting privileges to roles---
 
 ---admin---
 GRANT SELECT, INSERT, DELETE, UPDATE ON ARTISTS TO admins;
@@ -85,7 +85,7 @@ GRANT EXECUTE ON FIND_EMPLOYEE_SALES TO employees;
 GRANT EXECUTE ON FIND_LATEST_SALES TO employees;
 GRANT EXECUTE ON FIND_SALE_PRODUCTS TO employees;
 
----revoking priviliges from roles---
+---revoking privileges from roles---
 
 ---clients---
 REVOKE INSERT, DELETE, UPDATE ON ARTISTS FROM clients;
