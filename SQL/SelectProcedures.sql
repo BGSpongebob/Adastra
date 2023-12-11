@@ -42,12 +42,13 @@ BEGIN
       RPAD('Date', 4)
    );
    FOR cust_record IN (
-      SELECT s.SALE_ID, e.FIRST_NAME, e.LAST_NAME, s.SALE_DATE, e.EMPL_ID
-      FROM SALES s
-      JOIN EMPLOYEES e ON s.EMPL_ID = e.EMPL_ID
-      JOIN SALES_PRODUCTS sp ON s.SALE_ID = sp.SALE_ID
-      ORDER BY s.SALE_DATE DESC, e.EMPL_ID
-      FETCH FIRST 5 ROWS ONLY
+      SELECT * FROM (
+         SELECT s.SALE_ID, e.FIRST_NAME, e.LAST_NAME, s.SALE_DATE, e.EMPL_ID
+         FROM SALES s
+         JOIN EMPLOYEES e ON s.EMPL_ID = e.EMPL_ID
+         JOIN SALES_PRODUCTS sp ON s.SALE_ID = sp.SALE_ID
+         ORDER BY s.SALE_DATE DESC, e.EMPL_ID
+      ) WHERE ROWNUM <= 5
    ) 
    LOOP    
       DBMS_OUTPUT.PUT_LINE(
